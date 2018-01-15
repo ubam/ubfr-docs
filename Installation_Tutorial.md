@@ -1,29 +1,33 @@
-Recommended installation requirements: 
+# Installation tutorial
+
+## Recommended installation requirements: 
 
 PC OS: ubuntu Xenial 16.04 LTS
 good USB cable that will not be connected to HUB
-Ubports installer: snap, deb, CPT or MDT, see bellow
+Ubports installer: snap, deb, CPT or MDT, see below
 Core devices N5, OPO, FP2
 battery device is fully charged
 
-FIRST STEP: 
+## Unlock bootloader
 check out the device on fastboot mode has the bootloader UNLOCKED
 
-HOWTO:
-ad N5/ press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
+
+
+### N5
+Press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
 check last line on the device: should say: LOCK STATE - unlocked
 if not, install ADB tools on your PC
 
-ad OPO/
+### OPO
 
-ad FP2/
+### FP2
 
-HOWTO INSTALL ADB TOOLS:
+## Install adb tools
 
-SECOND STEP:
-check out your cashe on the device is not full
+## Check cache is not full
+check out your cache on the device is not full
 
-HOWTO:
+
 Put your device into recovery mode. (Volume up + Power on)
 
 Connect it by USB to your computer
@@ -56,14 +60,24 @@ adb shell "ls /cache/"
 Output was:
 lost+found recovery
 
+## Install Image
+
 Now reboot the device:
 adb reboot bootloader
 
-Use the UBports installer to flash Ubuntu Touch to your Linux device
-a) install using snap: sudo snap install ubports-installer --devmode
-b) install using deb: https://github.com/ubports/ubports-installer/releases/download/0.1.9-beta/ubports-installer_0.1.9-beta_amd64.deb
-c) install using CPT: https://ubports.com/r/downloads-cpt-linux
-d) install using MDT: https://github.com/MariusQuabeck/magic-device-tool
+Use the UBports installer to flash Ubuntu Touch to your Linux device choosing one of this methods:
+
+### UBports installer as Snap
+sudo snap install ubports-installer --devmode
+
+### UBports installer as .deb
+https://github.com/ubports/ubports-installer/releases/download/0.1.9-beta/ubports-installer_0.1.9-beta_amd64.deb
+
+### CPT
+https://ubports.com/r/downloads-cpt-linux
+
+### MDT (soon deprecated)
+https://github.com/MariusQuabeck/magic-device-tool
 
 
 Will Atwood test addition (delete me)
