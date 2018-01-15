@@ -66,4 +66,4 @@ c) install using CPT: https://ubports.com/r/downloads-cpt-linux
 d) install using MDT: https://github.com/MariusQuabeck/magic-device-tool
 
 
-Will Atwood test addition (delete me)
+
