@@ -2,73 +2,68 @@
 
 ## Recommended installation requirements: 
 
-PC OS: ubuntu Xenial 16.04 LTS
-good USB cable that will not be connected to HUB
-Ubports installer: snap, deb, CPT or MDT, see below
-Core devices N5, OPO, FP2
-battery device is fully charged
+- PC OS: ubuntu Xenial 16.04 LTS
+- good USB cable that will not be connected to HUB
+- Ubports installer: snap, deb, CPT or MDT, see below
+- Core devices N5, OPO, FP2
+- battery device is fully charged
 
 ## Unlock bootloader
 check out the device on fastboot mode has the bootloader UNLOCKED
 
-
-
 ### N5
-Press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
-check last line on the device: should say: LOCK STATE - unlocked
-if not, install ADB tools on your PC
+- Press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
+- check last line on the device: should say: LOCK STATE - unlocked
+- if not, install ADB tools on your PC
 
 ### OPO
+[TODO]
 
 ### FP2
+[TODO]
 
 ## Install adb tools
+[TODO]
 
 ## Check cache is not full
 check out your cache on the device is not full
 
-
-Put your device into recovery mode. (Volume up + Power on)
-
-Connect it by USB to your computer
-
-Open terminal on your computer and type:
-adb shell "df -h"
-My output in the last line was following:
-/dev/block/platform/mtk-msdc.0/by-name/system
-3.8G 3.7G 52.4M 99% /cache
-So there was no space left on the cache partition.
-
-just a test:
-adb shell "ls /cache"
-ls: /cache/lost+found: No such file or directory
-
-Then I created a new filesystem on the cache partition by the command in terminal:
-adb shell "make_ext4fs /dev/block/platform/mtk-msdc.0/by-name/system"
-
-Now rebooting the device by the command:
-adb reboot recovery
-
-After device is up in recovery mode again, enter the command again:
-adb shell "df -h"
-/dev/block/platform/mtk-msdc.0/by-name/system
-3.8G 8.1M 3.8G 0% /cache
-Now the space on the /cache partition is available.
-
-Just another test:
-adb shell "ls /cache/"
-Output was:
-lost+found recovery
+- Put your device into recovery mode. (Volume up + Power on)
+- Connect it by USB to your computer
+- Open terminal on your computer and type: `adb shell "df -h"`
+  
+  My output in the last line was following:
+  ```
+  /dev/block/platform/mtk-msdc.0/by-name/system
+  3.8G 3.7G 52.4M 99% /cache
+  ```
+  So there was no space left on the cache partition.
+- just a test:
+  ```
+  $ adb shell "ls /cache"
+  ls: /cache/lost+found: No such file or directory
+  ```
+- creat a new filesystem on the cache partition: `adb shell "make_ext4fs /dev/block/platform/mtk-msdc.0/by-name/system"`
+- reboot the device: `adb reboot recovery`
+- After device is up in recovery mode again, enter the command again:
+  ```
+  $ adb shell "df -h"
+  /dev/block/platform/mtk-msdc.0/by-name/system
+  3.8G 8.1M 3.8G 0% /cache
+  ```
+  Now the space on the `/cache` partition is available.
+- Just another test:
+  ```
+  $ adb shell "ls /cache/"
+  lost+found recovery
+  ```
 
 ## Install Image
-
-Now reboot the device:
-adb reboot bootloader
-
-Use the UBports installer to flash Ubuntu Touch to your Linux device choosing one of this methods:
+- Reboot the device: `adb reboot bootloader`
+- Use the UBports installer to flash Ubuntu Touch to your Linux device choosing one of this methods:
 
 ### UBports installer as Snap
-sudo snap install ubports-installer --devmode
+`sudo snap install ubports-installer --devmode`
 
 ### UBports installer as .deb
 https://github.com/ubports/ubports-installer/releases/download/0.1.9-beta/ubports-installer_0.1.9-beta_amd64.deb
