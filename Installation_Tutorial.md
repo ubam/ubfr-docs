@@ -28,11 +28,13 @@ Check to see if device is UNLOCKED on bootloader screen
 - check last line on the device: should say: LOCK STATE - unlocked
 - if not, `fastboot oem unlock`  (--this will completely wipe your device--)
 
+
 ### OPO
 [TODO]
 
 ### FP2
 [TODO]
+
 
 ## Check cache is not full
 check out your cache on the device is not full
@@ -40,6 +42,7 @@ check out your cache on the device is not full
 - Put your device into recovery mode. (Volume up + Power on) or `adb reboot recovery`
 - Connect it by USB to your computer
 - Run command: `adb shell "df -h"`
+
   
   My output in the last line was following:
   ```
@@ -108,4 +111,7 @@ try adb kill-server
 sudo add-apt-repository ppa:phablet-team/tools
 sudo apt-get update
 sudo apt-get install phablet-tools
+
+
+
 

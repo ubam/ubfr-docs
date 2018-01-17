@@ -1,4 +1,4 @@
-### Known Issue and quick solving
+# Known Issue and quick solving
  
  
 ## Videos in the gallery are not seen correctly
