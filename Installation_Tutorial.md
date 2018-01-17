@@ -4,17 +4,30 @@
 
 - PC OS: ubuntu Xenial 16.04 LTS
 - good USB cable that will not be connected to HUB
-- Ubports installer: snap, deb, CPT or MDT, see below
+- Ubports installer: snap, deb, CPT, MDT or ubuntu-device-flash, see below
 - Core devices N5, OPO, FP2
 - battery device is fully charged
 
+All commands written in the form:
+`xyz command` should be run from Terminal.
+
+## Install adb, fastboot and phablet tools
+`sudo apt-get install android-tools-fastboot android-tools-adb phablet-tools`
+
+## Developer Mode
+- Android phone in developer mode
+- Activate usb debugging
+- Connect phone to pc
+- Allow connection via message on your phone
+
 ## Unlock bootloader
-check out the device on fastboot mode has the bootloader UNLOCKED
+Check to see if device is UNLOCKED on bootloader screen
 
 ### N5
-- Press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
+- Press buttons (Volume down + Power on) to open fastboot mode screen bootloader on the device or use the command `adb reboot bootloader`
 - check last line on the device: should say: LOCK STATE - unlocked
-- if not, install ADB tools on your PC
+- if not, `fastboot oem unlock`  (--this will completely wipe your device--)
+
 
 ### OPO
 [TODO]
@@ -22,15 +35,14 @@ check out the device on fastboot mode has the bootloader UNLOCKED
 ### FP2
 [TODO]
 
-## Install adb tools
-[TODO]
 
 ## Check cache is not full
 check out your cache on the device is not full
 
-- Put your device into recovery mode. (Volume up + Power on)
+- Put your device into recovery mode. (Volume up + Power on) or `adb reboot recovery`
 - Connect it by USB to your computer
-- Open terminal on your computer and type: `adb shell "df -h"`
+- Run command: `adb shell "df -h"`
+
   
   My output in the last line was following:
   ```
@@ -73,6 +85,33 @@ https://ubports.com/r/downloads-cpt-linux
 
 ### MDT (soon deprecated)
 https://github.com/MariusQuabeck/magic-device-tool
+
+### ubuntu-device-flash
+`sudo ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=15.04/stable --bootstrap`
+
+Check for correct syntax (double dashes).
+`--bootstrap` installs UBports Recovery
+Removing `--bootstrap` will update UT similar to OTA update while in UT.
+
+To see the possible channels, check out [system-image.ubports.com](http://system-image.ubports.com/ubports-touch/)
+
+
+
+## Troubleshooting
+
+- Adb vendor keys not set
+Try Revoke USB DEBUGGING Authorization.
+    Enable USB debugging again
+disconnect and reconnect the phone
+
+- adb devices not working
+try adb kill-server
+
+- Ubuntu 17.xx
+sudo add-apt-repository ppa:phablet-team/tools
+sudo apt-get update
+sudo apt-get install phablet-tools
+
 
 
 
