@@ -72,7 +72,7 @@ check out your cache on the device is not full
 
 ## Install Image
 - Reboot the device: `adb reboot bootloader`
-- Use the UBports installer to flash Ubuntu Touch to your Linux device choosing one of this methods:
+- Use the UBports installer to flash Ubuntu Touch to your Linux device choosing one of these methods:
 
 ### UBports installer as Snap
 `sudo snap install ubports-installer --devmode`
@@ -89,9 +89,9 @@ https://github.com/MariusQuabeck/magic-device-tool
 ### ubuntu-device-flash
 `sudo ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=15.04/stable --bootstrap`
 
-Check for correct syntax (double dashes).
-`--bootstrap` installs UBports Recovery
-Removing `--bootstrap` will update UT similar to OTA update while in UT.
+- Check for correct syntax (double dashes).
+- `--bootstrap` installs UBports Recovery
+- Removing `--bootstrap` will update UT similar to OTA update while in UT.
 
 To see the possible channels, check out [system-image.ubports.com](http://system-image.ubports.com/ubports-touch/)
 
@@ -99,19 +99,20 @@ To see the possible channels, check out [system-image.ubports.com](http://system
 
 ## Troubleshooting
 
-- Adb vendor keys not set
-Try Revoke USB DEBUGGING Authorization.
-    Enable USB debugging again
-disconnect and reconnect the phone
+### Adb vendor keys not set
+- Try Revoke USB DEBUGGING Authorization.
+- Enable USB debugging again
+- disconnect and reconnect the phone
 
-- adb devices not working
+### adb devices not working
 try adb kill-server
 
-- Ubuntu 17.xx
-sudo add-apt-repository ppa:phablet-team/tools
+### Ubuntu 17.xx
+```
+sudo add-apt-repository ppa:phablet-team/tools`
 sudo apt-get update
 sudo apt-get install phablet-tools
-
+```
 
 
 
