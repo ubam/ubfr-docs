@@ -1,12 +1,12 @@
-#UBports First Responders (UBFR) Qucik Links Document
+# UBports First Responders (UBFR) Qucik Links Document
 
 Description: To provide guidance for posting to new members in the main Telegram Supergroup.  Information on typical welcoming greetings as well as links to important information to get started using Ubuntu Touch.
 
-##UBFR LIVE COPY/PASTE LINK
+## UBFR LIVE COPY/PASTE LINK
 
-	[https://ubports.com/page/telegram-welcome](https://ubports.com/page/telegram-welcome)
+[https://ubports.com/page/telegram-welcome](https://ubports.com/page/telegram-welcome)
 
-##UBports GROUPS
+## UBports GROUPS
 
 - UBports News Channel               [https://t.me/ubports_news](https://t.me/ubports_news)	@UBports_News
 - UB_Welcome&Install                 [https://t.me/WelcomePlus](https://t.me/WelcomePlus)      	@WelcomePlus
@@ -17,15 +17,18 @@ Description: To provide guidance for posting to new members in the main Telegram
 
 
 Documentation
-[https://docs.ubports.com/en/latest/userguide/install.html](https://docs.ubports.com/en/latest/userguide/install.html)
-[https://github.com/ubam/ubfr-docs/blob/master/Installation_Tutorial.md](https://github.com/ubam/ubfr-docs/blob/master/Installation_Tutorial.md)
+- [https://docs.ubports.com/en/latest/userguide/install.html](https://docs.ubports.com/en/latest/userguide/install.html)
+- [https://github.com/ubam/ubfr-docs/blob/master/Installation_Tutorial.md](https://github.com/ubam/ubfr-docs/blob/master/Installation_Tutorial.md)
 
 
-##UBFR WELCOME PUBLIC SCRIPT REVISION
+## UBFR WELCOME PUBLIC SCRIPT REVISION
 
-1. FIRST SHORT PM ALERT SCRIPT - IN THE PUBLIC SG CHAT
-COPY/PASTE, FILL IN VARIABLES, SEND TO NEW PERSON
-- This method is now discouraged in favour of more organic and personal welcome messages. You can use this for reference. Make sure you keep the name and the welcome page link.
+1. FIRST MESSAGE
+
+- Be Creative!  Do not just copy/paste, but make it unique
+- Post in SG to new member
+- Include their name and welcome page link
+- We are NoBots so be Creative!
 
 Hello $name and welcome! I'm part of the UBports welcoming team. To help you get started, please take a look right away at our newcomers welcome page (https://ubports.com/page/telegram-welcome) and thanks again for joining us! :)
 
@@ -93,9 +96,8 @@ Have a nice day and enjoy the purging!
 
 ## References
 
-1. FIRST SHORT PM ALERT SCRIPT - VARIATION 1 *Do Not Cold PM new members*
-COPY/PASTE/FILL IN VARIABLES/SEND
-
+1. FIRST SHORT PM ALERT SCRIPT - VARIATION 1 COPY/PASTE/FILL IN VARIABLES/SEND
+ *Do Not Cold PM new members*
 
 Hello $name and welcome! I'm going to send you a quick message on the side to make sure you have a few excellent tools to get you going. Just wanted to let you know so you know who I am when I send it. :)
  
