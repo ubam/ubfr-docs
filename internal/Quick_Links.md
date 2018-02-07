@@ -1,4 +1,4 @@
-# UBports First Responders (UBFR) Qucik Links Document
+# UBports First Responders (UBFR) Quick Links Document
 
 Description: To provide guidance for posting to new members in the main Telegram Supergroup.  Information on typical welcoming greetings as well as links to important information to get started using Ubuntu Touch.
 
@@ -11,7 +11,7 @@ Description: To provide guidance for posting to new members in the main Telegram
 - UBports News Channel               [https://t.me/ubports_news](https://t.me/ubports_news)	@UBports_News
 - UB_Welcome&Install                 [https://t.me/WelcomePlus](https://t.me/WelcomePlus)      	@WelcomePlus
 - UBports OT (unofficial)            [https://t.me/ubports_ot](https://t.me/ubports_ot)        	@UBports_OT
-- UBLangs                            [https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA](https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA)
+- UBLangs (team captains only)       [https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA](https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA)
 - UBports Supergroup [ENGLISH]       [https://t.me/ubports](https://t.me/ubports)           	@UBports
 - Language groups information 	     [https://papad.org/p/UBLang_SG](https://papad.org/p/UBLang_SG)
 
