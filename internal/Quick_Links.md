@@ -13,23 +13,22 @@ Description: To provide guidance for posting to new members in the main Telegram
 |UBports News Channel       | [t.me/ubports_news](https://t.me/ubports_news)       |@UBports_News      |
 |UB_Welcome&Install|[t.me/WelcomePlus](https://t.me/WelcomePlus)|@WelcomePlus|
 |UBports OT|[t.me/ubports_ot](https://t.me/ubports_ot)|@UBports_OT|
-|UBLangs |[t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA](https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA)|Team Captains only, no @ link|
+|UBLangs |[t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA](https://t.me/joinchat/Baj4lhAZ45K1gkhsmipxzA)|Team Captains only, no @|
 |UBports Supergroup [ENGLISH]|[t.me/ubports](https://t.me/ubports)|@UBports|
 |UBparents|[t.me/UBports_Parents](https://t.me/UBports_Parents)|@UBports_Parents|
 |UBports Meshengers|[t.me/joinchat/Baj4lglxqJxkn41yr__YSg](https://t.me/joinchat/Baj4lglxqJxkn41yr__YSg)| no @|
 |UBports Clouds|[t.me/UBports_Cloudsters](https://t.me/UBports_Cloudsters)|@UBports_Cloudsters|
 |All Things Ubuntu (ATU)|[t.me/AllThingsUbuntu](https://t.me/AllThingsUbuntu)|@AllThingsUbuntu|
-|UBports Linphone Project (SIP)|[https://t.me/ubport_linphone](https://t.me/ubport_linphone)|@ubport_linphone|
+|UBports Linphone Project (SIP)|[t.me/ubport_linphone](https://t.me/ubport_linphone)|@ubport_linphone|
 |Ubuntu Audio|[t.me/joinchat/Baj4lg6rpSWKVmXRSzKc4w](https://t.me/joinchat/Baj4lg6rpSWKVmXRSzKc4w)| no @|
-|Open Store|[telegram.me/joinchat/BMTh8AHtOL2foXLulmqDxw](https://telegram.me/joinchat/BMTh8AHtOL2foXLulmqDxw)|no @|
+|Open Store|[t.me/joinchat/BMTh8AHtOL2foXLulmqDxw](https://telegram.me/joinchat/BMTh8AHtOL2foXLulmqDxw)|no @|
 |UBports Community Steering Committee (UBAM)|[t.me/joinchat/Baj4lgwZX70Eky1weKk9NQ](https://t.me/joinchat/Baj4lgwZX70Eky1weKk9NQ)|no @|
-|Ubuntu App Dev| unknown| unknown|
-|UB UX Design| unknown| no @|
 |UBports Writers|[t.me/joinchat/Baj4lkc7-DbmH9p1rbs8TQ](https://t.me/joinchat/Baj4lkc7-DbmH9p1rbs8TQ)| no @|
-|UBdocs|[https://t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA](UBdocs https://t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA)|no @|
+|UBdocs|[t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA](UBdocs https://t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA)|no @|
 |Lab 1|[t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ](https://t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ)|no @|
 |UBports Marketing +|[t.me/joinchat/Baj4llH-JlwOCb_45JXzXA](https://t.me/joinchat/Baj4llH-JlwOCb_45JXzXA)|no @|
-
+|Ubuntu App Dev| unknown| no @|
+|UB UX Design| unknown| no @|
 
 
 Language groups Information [github.com/ubam/infrastructure/tree/master/community/ublangs](https://github.com/ubam/infrastructure/tree/master/community/ublangs)
