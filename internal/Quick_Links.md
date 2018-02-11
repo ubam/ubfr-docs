@@ -24,7 +24,7 @@ Description: To provide guidance for posting to new members in the main Telegram
 |Open Store|[t.me/joinchat/BMTh8AHtOL2foXLulmqDxw](https://telegram.me/joinchat/BMTh8AHtOL2foXLulmqDxw)|no @|
 |UBports Community Steering Committee (UBAM)|[t.me/joinchat/Baj4lgwZX70Eky1weKk9NQ](https://t.me/joinchat/Baj4lgwZX70Eky1weKk9NQ)|no @|
 |UBports Writers|[t.me/joinchat/Baj4lkc7-DbmH9p1rbs8TQ](https://t.me/joinchat/Baj4lkc7-DbmH9p1rbs8TQ)| no @|
-|UBdocs|[t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA](UBdocs https://t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA)|no @|
+|UBdocs|[t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA](https://t.me/joinchat/HJTqaRKRmwESN5uWgOmBjA)|no @|
 |Lab 1|[t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ](https://t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ)|no @|
 |UBports Marketing +|[t.me/joinchat/Baj4llH-JlwOCb_45JXzXA](https://t.me/joinchat/Baj4llH-JlwOCb_45JXzXA)|no @|
 |UBports Unity8 Dev|[t.me/Ubports_Unity8](https://t.me/Ubports_Unity8)|@Ubports_Unity8|
