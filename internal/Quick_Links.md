@@ -41,7 +41,7 @@ Language groups Information [github.com/ubam/infrastructure/tree/master/communit
 
 Installation Documentation
 - [docs.ubports.com/en/latest/userguide/install.html](https://docs.ubports.com/en/latest/userguide/install.html)
-- [github.com/ubam/ubfr-docs/blob/master/install/toorganize-generic.md](https://github.com/ubam/ubfr-docs/blob/master/install/toorganize-generic.md)
+- [ubam/ubfr-docs/install/toorganize-generic.md](../install/toorganize-generic.md)
 
 
 ## UBFR WELCOME PUBLIC SCRIPT REVISION
