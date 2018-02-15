@@ -28,6 +28,7 @@ Description: To provide guidance for posting to new members in the main Telegram
 |Lab 1|[t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ](https://t.me/joinchat/Baj4lhGOmNABsfHPyYFGVQ)|no @|
 |UBports Marketing +|[t.me/joinchat/Baj4llH-JlwOCb_45JXzXA](https://t.me/joinchat/Baj4llH-JlwOCb_45JXzXA)|no @|
 |UBports Unity8 Dev|[t.me/Ubports_Unity8](https://t.me/Ubports_Unity8)|@Ubports_Unity8|
+|Unity8 SDK|[telegram.me/unity8sdk](http://telegram.me/unity8sdk)|@unity8sdk|
 |Ubuntu App Dev| unknown| no @|
 |UB UX Design| unknown| no @|
 
