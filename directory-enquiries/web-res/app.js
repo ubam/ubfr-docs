@@ -88,6 +88,16 @@ var Table = Table || (function Table(source) {
 		}
 	};
 
+	this._clickedSort = (key) => {
+		if (this.sortBy == key) {
+			this.sortAsc = !this.sortAsc;
+		} else {
+			this.sortBy = key;
+		}
+
+		this.update();
+	};
+
 	this.recreate = () => {
 		return new Promise((res, rej) => {
 			if (this._element === null) {
@@ -102,6 +112,7 @@ var Table = Table || (function Table(source) {
 			for (let i in this._json.head) {
 				let th = document.createElement('th');
 				th.innerText = this._json.head[i];
+				th.addEventListener('click', this._clickedSort.bind(this, i));
 				hrow.appendChild(th);
 				if (!this.sortBy) {
 					this.sortBy = i;
