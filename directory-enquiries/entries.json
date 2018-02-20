@@ -1,0 +1,28 @@
+{
+	"head": {
+		"name": "Name",
+		"functions": "Functions",
+		"rep+": "Additional Responsibilities",
+		"contact": "Contact"
+	},
+	"entries": [
+		{
+			"name": "Peter Nerlich",
+			"functions": ["LC Germany", "UBFR", "UBAM"],
+			"resp+": ["creator/maintainer of UBAM GitHub"],
+			"contact": {
+				"telegram": "@peternerlich",
+				"email": "peter.nerlich+ubports@googlemail.com"
+			}
+		},
+		{
+			"name": "This",
+			"functions": ["is"],
+			"resp+": [],
+			"contact": {
+				"telegram": "@",
+				"email": "test"
+			}
+		}
+	]
+}
