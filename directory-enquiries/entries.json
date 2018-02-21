@@ -16,12 +16,35 @@
 			}
 		},
 		{
+			"name": "Wayne",
+			"functions": ["LC Korea", "UBFR", "UBAM", "(many more)"],
+			"resp+": ["does potentially everything in/around the community"],
+			"contact": {
+				"telegram": "@wayneoutthere"
+			}
+		},
+		{
+			"name": "Emanuele Sorce",
+			"functions": ["LC Italy", "UBFR", "UBAM"],
+			"resp+": [],
+			"contact": {
+				"telegram": "@TronFortyTwo"
+			}
+		},
+		{
+			"name": "Diogo Constantino",
+			"functions": ["LC Portugal", "UBAM"],
+			"resp+": [],
+			"contact": {
+				"telegram": "@DiogoConstantino"
+			}
+		},
+		{
 			"name": "This",
 			"functions": ["is"],
 			"resp+": [],
 			"contact": {
-				"telegram": "@",
-				"email": "test"
+				"telegram": "@test"
 			}
 		}
 	]

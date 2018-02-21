@@ -26,12 +26,17 @@ article {
 i, cite, em, var, address, dfn {
 	font-style: italic;
 }
-a {
+a, .link {
 	color: #0366d6;
 	text-decoration: none;
 }
-a:hover {
+a:hover, .link:hover {
 	text-decoration: underline;
+}
+
+
+.hidden {
+	display: none;
 }
 
 
@@ -118,4 +123,18 @@ a:hover {
 	word-wrap: normal;
 	background-color: transparent;
 	border: 0;
+}
+
+
+.markdown .blockwrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.markdown input, .markdown textarea {
+	width: 100%;
+	margin: 0;
+    display: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
