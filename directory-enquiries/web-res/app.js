@@ -14,7 +14,7 @@ var Table = Table || (function Table(source) {
 			if (this._source === null) {
 				return rej('No source set');
 			}
-/*
+
 			var xhr = new XMLHttpRequest();
 			xhr.open('GET', this._source);
 			xhr.send(null);
@@ -32,10 +32,12 @@ var Table = Table || (function Table(source) {
 				} catch (e) {
 					return rej(e);
 				}
-			};*/
-			return res(JSON.parse(
+			};
+
+			// test data (for local use)
+			/*return res(JSON.parse(
 				'{"head":{"name":"Name","functions":"Functions","rep+":"Additional Responsibilities","contact":"Contact"},"entries":[{"name":"Peter Nerlich","functions":["LC Germany","UBFR","UBAM"],"resp+":["creator/maintainer of UBAM GitHub"],"contact":{"telegram":"@peternerlich","email":"peter.nerlich+ubports@googlemail.com"}},{"name":"Wayne","functions":["LC Korea","UBFR","UBAM","(many more)"],"resp+":["does potentially everything in/around the community"],"contact":{"telegram":"@wayneoutthere"}},{"name":"Emanuele Sorce","functions":["LC Italy","UBFR","UBAM"],"resp+":[],"contact":{"telegram":"@TronFortyTwo"}},{"name":"Diogo Constantino","functions":["LC Portugal","UBAM"],"resp+":[],"contact":{"telegram":"@DiogoConstantino"}},{"name":"This","functions":["is"],"resp+":[],"contact":{"telegram":"@test"}}]}'
-			));
+			));*/
 		});
 	};
 
