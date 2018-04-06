@@ -1,18 +1,59 @@
 {
-	"head": {
-		"name": "Name",
-		"functions": "Functions",
-		"rep+": "Additional Responsibilities",
-		"contact": "Contact"
-	},
+	"version": "0.2",
+	"head": [
+		{
+			"key": "name",
+			"column": "Name",
+			"type": "string"
+		},
+		{
+			"key": "functions",
+			"column": "Functions",
+			"type": "list",
+			"elements": {
+				"types": ["string"]
+			}
+		},
+		{
+			"key": "rep+",
+			"column": "Additional Responsibilities",
+			"type": "list",
+			"elements": {
+				"types": ["string"]
+			}
+		},
+		{
+			"key": "contact",
+			"column": "Contact",
+			"type": "klist",
+			"elements": {
+				"types": ["string"],
+				"casek": {
+					"telegram": {
+						"html": "<a href=\"https://telegram.dog/${VALUE}\">@${VALUE}</a>"
+					},
+					"openstore": {
+						"html": "<a href=\"https://open-store.io/?search=author%3A${VALUE}\">${VALUE}</a>"
+					},
+					"email": {
+						"html": "<a href=\"mailto:${VALUE}\">${VALUE}</a>"
+					},
+					"github": {
+						"html": "<a href=\"https://github.com/${VALUE}\">@${VALUE}</a>"
+					}
+				}
+			}
+		}
+	],
 	"entries": [
 		{
 			"name": "Peter Nerlich",
 			"functions": ["LC Germany", "UBFR", "UBAM"],
 			"resp+": ["creator/maintainer of UBAM GitHub"],
 			"contact": {
-				"telegram": "@peternerlich",
-				"email": "peter.nerlich+ubports@googlemail.com"
+				"telegram": "peternerlich",
+				"email": "peter.nerlich+ubports@googlemail.com",
+				"openstore": "Peter Nerlich"
 			}
 		}
 	]
